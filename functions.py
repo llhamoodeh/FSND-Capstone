@@ -19,8 +19,7 @@ def create_actor():
 
     actor = Actor(
         name=name,
-        age=age,
-        gender=gender
+        age=age
     )
     actor.insert()
 
